@@ -1,6 +1,6 @@
 <% @bears.each do |bear| %>
-  <%= link_to bear.name, bear_path(bear) %>
-  <%= bear.description %>
-  <%= link_to "Edit", edit_bear_path(bear) %>
-  <%= link_to "Delete", bear_path(bear), method: "delete" %>
+  <h2><%= link_to bear.name, bear_path(bear) %></h2>
+  <p><%= bear.description %></p>
+  <p><%= link_to "Edit", edit_bear_path(bear) %></p>
+  <p><%= link_to "Delete", bear_path(bear), method: "delete" %></p>
 <% end %>
