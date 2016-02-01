@@ -1,0 +1,5 @@
+<img src="http://placebear.com/200/300" alt="Bear">
+<h2><%= @bear.name %></h2>
+<p><%= @bear.description %></p>
+<p><%= link_to "Edit", edit_bear_path(@bear) %></p>
+<p><%= link_to "Delete", bear_path(@bear), method: "delete" %></p>

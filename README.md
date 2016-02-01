@@ -90,7 +90,3 @@ Minimal tests exist to verify that the mandatory routes exist and do not throw e
 Only if you finish early, set up functionality to ensure that a name and description are not empty strings. If a name or description is sent as an empty string, display an error message and DO NOT create or update the bear!
 
 Also, display a JavaScript confirm box when the user clicks the `Delete` button for a bear. Ask the user if they really want to delete that poor bear in the message of the confirm box. If they click `Cancel` the bear should not be deleted. If they click `Confirm` delete that bear!
-
-
-
-
